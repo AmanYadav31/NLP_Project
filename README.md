@@ -22,7 +22,7 @@ The code combines source and target data, extracts keywords, and generates abstr
 Before running the code, ensure to run the requirements.txt file:
 
 ```bash
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Usage
