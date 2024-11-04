@@ -44,11 +44,15 @@ pip install -r requirements.txt
    - You can modify the hyperparameters in the config.yaml file as needed.
     
 4. **To Run single stage story generation**
-   - Update src/config.yml accordingly
+   - Update src/config.yaml accordingly
    - Run *python single_stage.py* to train and validate the model.
+     
+5. **To Run prompt to outline generation**
+   - Update src/config.yaml accordingly
+   - Run *python Prompt_to_Outline.py* to train and validate the model.
    
-5. **To Run double stage story generation**
-   - Update src/config.yml accordingly
+6. **To Run double stage story generation**
+   - Update src/config.yaml accordingly
    - Run *python double_stage.py* to train and validate the model.
 
 ### Testing the Model
