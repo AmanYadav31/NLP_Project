@@ -1,0 +1,18 @@
+dataset:
+  train_path: ../dataset/new_traindata.csv
+  val_path: ../dataset/new_valdata.csv
+  test_path: ../dataset/new_testdata.csv
+  tokenized_train_path: ../dataset/tokenized_train.csv
+  tokenized_val_path: ../dataset/tokenized_val.csv
+  tokenized_test_path: ../dataset/tokenized_test.csv  
+  max_input_lenght: 128
+  max_story_length: 256
+  
+model:
+  save_path: ../model/
+  decoder: gpt2
+
+training_args:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.0001
